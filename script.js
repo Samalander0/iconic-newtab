@@ -16,28 +16,28 @@ const backgrounds = [
     icon: "flower-2"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1563212108-03d3b081f91e",
+    icon: "waves"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1715254934353-fffa2d0e8061",
+    icon: "sun"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1683341960939-84c4e7095875",
+    icon: "droplets"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1616860895045-13553f397d64",
+    icon: "flame"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1542726922-8a0a42ae764d",
+    icon: "mountain"
   },
   {
-    img: "",
-    icon: ""
+    img: "https://images.unsplash.com/photo-1503566647522-6cda96ca356e",
+    icon: "trees"
   },
 ]
 /*
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
   icon.setAttribute('data-lucide', bg.icon);
 
   const background = document.createElement('div');
-  background.style.backgroundImage = `url("${bg.img}?w=1920&auto=format&fit=crop")`;
+  background.style.backgroundImage = `url("${bg.img}?w=1600&auto=format&fit=crop")`;
   background.classList.add('background');
 
   const mainContent = document.getElementById('main-content');
